@@ -10,7 +10,15 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.ReadLine("hola mundo")
+            int elMayor;
+            string dato;
+            Console.WriteLine("hola mundo");
+           // Console.ReadLine();
+            elMayor= Comparadora.RetornarMayor(10, 5);
+            sello.mensaje="nuevomensaje";
+            dato= sello.imprimir();
+            sello.color = ConsoleColor.Blue;
+            
 
         }
     }
